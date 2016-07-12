@@ -1,0 +1,211 @@
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: black;
+}
+@media(min-width:400px) {
+    /*.navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }*/
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+    .about-section {
+      height: auto;
+    }
+    img {
+    max-width: 100%;
+    height: auto;
+    }
+    .about-section {
+		overflow: auto;
+	}
+  #about {
+  overflow: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+}
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
+of those sections to manage the look and feel of the site. */
+
+nav {
+  margin-top: -5px;
+  padding-bottom: -5px;
+}
+
+.menu {
+  font-size: 20px;
+  color: black;
+  font-family: 'Open Sans';
+  position: relative;
+  top: 25px;
+}
+a::hover {
+  color: black;
+}
+
+
+
+
+.intro-section {
+    height: 100%;
+    padding-top: 120px;
+    text-align: center;
+    background: white;
+}
+.intro-img {
+    width: 60%;
+    height: auto;
+}
+
+.intro-copy {
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  display: inline-block;
+  margin-left: 0;
+  padding-left: 0;
+  float: left;
+}
+
+input {
+  padding-top: 5px;
+  margin-bottom: 5px;
+}
+
+.about-section {
+    height: 55%;
+    padding-top: 80px;
+    width: 100%;
+    background: white;
+    display: block;
+    position: relative;
+    bottom: 20px;
+    overflow: auto;
+}
+#about {
+  overflow: auto;
+}
+.services-section {
+    height: 70%;
+    padding-top: 20px;
+    text-align: center;
+    background: #fff;
+}
+h1 {
+  position: relative;
+  top: 40px;
+  padding-bottom: 0px;
+}
+
+.emoji-footer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 66%;
+    height: auto;
+}
+}
+.sign-in {
+  display: inline-block;
+}
+
+h2 {
+  text-align: center;
+}
+
+table caption {
+	padding: 1em 0;
+}
+
+@media screen and (max-width: 767px) {
+  table caption {
+    border-bottom: 1px solid #ddd;
+  }
+
+}
+p {
+  text-align: center;
+  font-size: 14px;
+}
+.table-features {
+  position: relative;
+  height: auto;
+  width: auto;
+}
+.title {
+  font-weight: bold;
+}
+.box {
+  display: inline-block;
+  width: 100%;
+}
+.map {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+background-size: cover;
+}
+.map-section {
+  background-image: url("http://i.imgur.com/ckZs9DG.jpg");
+  height: 350px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+    text-align: center;
+    background-color: #b4e3f8;
+}
+.how {
+  position: relative;
+  top: 40px;
+}
+.how-copy {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    top: 15px;
+}
+footer {
+  background-color: #575757;
+  height: 50px;
+}
+.footer {
+list-style-type: none;
+text-decoration: none;
+  color: white;
+  text-align: center;
+}
+li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    top: 15px;
+}
